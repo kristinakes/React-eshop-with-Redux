@@ -34,4 +34,4 @@ The server endpoints needs to be updated in src/utils/apiConfig.jsx file
 There are few snapshot test writen for main components.
 
 ## To make the Google map work
-Update the API key with your own in utils folder. For more information [https://developers.google.com/maps/documentation/javascript/get-api-key] (how to get API Key)
+Update the API key with your own in utils folder. For more information how to get API Key [https://developers.google.com/maps/documentation/javascript/get-api-key].
