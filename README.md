@@ -30,7 +30,8 @@ This will start json-server to fetch data from product.db file and update produc
 The server endpoints needs to be updated in src/utils/apiConfig.jsx file
 
 ### To run test files
-#### `npm test` There are few snapshot test writen for main components
+#### `npm test` 
+There are few snapshot test writen for main components.
 
 ## To make the Google map work
-Update the API key with your own in utils folder. For more information [how to get API Key] (https://developers.google.com/maps/documentation/javascript/get-api-key)
+Update the API key with your own in utils folder. For more information [https://developers.google.com/maps/documentation/javascript/get-api-key] (how to get API Key)
