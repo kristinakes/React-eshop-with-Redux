@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart page should match snapshot if item exists in cart store 1`] = `
+<body>
+  <div>
+    <div>
+      <div
+        class="flex justify-between font-bold text-blue text-xl p-10"
+      >
+        <h3>
+          Shopping cart
+        </h3>
+        <h3>
+          Total: 
+          20.00
+        </h3>
+      </div>
+      <div
+        class="grid grid-cols-2 gap-4 min-w-fit justify-center content-center sm:grid-cols-4 sm:gap-2 shadow-md m-5 p-3"
+      >
+        <div
+          class="size-48 m-auto"
+        >
+          <a
+            href="/Product/1"
+          >
+            <img
+              alt="laptop"
+              class="object-fill scale-75 z-0"
+              src="/assets/product_images/laptop.png"
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="/Product/1"
+          >
+            <h3
+              class="font-bold text-xl text-blue my-5"
+            >
+              laptop
+            </h3>
+          </a>
+          <div
+            class="font-semibold flex flex-wrap gap-3 md:flex-col md:gap-1"
+          >
+            <p>
+              Year: 
+              2020
+            </p>
+            <p>
+              RAM memory: 
+              5
+            </p>
+            <p>
+              Warranty: 
+              2 years
+            </p>
+            <p>
+              Price: 
+              10
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex justify-center items-center"
+        >
+          <button
+            class="btn-blue"
+            id="remove-item-btn"
+          >
+            <svg
+              aria-hidden="true"
+              class="h-6 w-6"
+              data-slot="icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <p
+            class="font-semibold text-4xl mx-5"
+          >
+            2
+          </p>
+          <button
+            class="btn-transparent"
+            id="add-item-btn"
+          >
+            <svg
+              aria-hidden="true"
+              class="h-6 w-6"
+              data-slot="icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 4.5v15m7.5-7.5h-15"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="font-bold text-xl m-auto"
+        >
+          <p>
+            Total: 
+            20.00
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

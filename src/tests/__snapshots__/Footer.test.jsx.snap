@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Footer correctly 1`] = `
+<footer
+  className="bg-blue sticky bottom-0 flex  h-[90px] w-full pl-10"
+>
+  <p
+    className="text-white my-auto"
+  >
+    © All Rights reserved
+  </p>
+</footer>
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Bar should match the snapshot 1`] = `
+<body>
+  <div>
+    <header
+      class="sticky top-0"
+    >
+      <nav
+        class="bg-blue flex h-[90px]"
+      >
+        <div
+          class="flex justify-between items-center w-full pl-10 pr-5"
+        >
+          <a
+            aria-current="page"
+            class="flex items-center justify-center text-white font-[600] text-2xl gap-3  active"
+            href="/"
+          >
+            <img
+              alt=""
+              src="laptop.png"
+            />
+            Gatget Store
+          </a>
+          <div
+            class="flex lg:hidden"
+          >
+            <button
+              class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-6 w-6"
+                data-slot="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="hidden lg:flex space-x-6"
+          >
+            <a
+              aria-current="page"
+              class="text-white hover:text-gray-300 text-xl font-600 active"
+              href="/"
+            >
+              Home
+            </a>
+            <a
+              class="text-white hover:text-gray-300 text-xl font-600"
+              href="/Products"
+            >
+              Products
+            </a>
+            <a
+              class="text-white hover:text-gray-300 text-xl font-600"
+              href="/Contacts"
+            >
+              Contact us
+            </a>
+            <a
+              class="text-white hover:text-gray-300 text-xl font-600"
+              href="/Cart"
+            >
+              Cart (0)
+            </a>
+          </div>
+        </div>
+        <div
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+        />
+      </nav>
+    </header>
+  </div>
+  <div
+    id="headlessui-portal-root"
+  >
+    <div
+      data-headlessui-portal=""
+    >
+      <div />
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Roboto", system-ui, sans-serif;
+  }
+}
+
+.active {
+  @apply font-bold;
+}
+
+.btn-blue {
+  @apply uppercase bg-blue size-fit px-2 md:px-3 py-2 rounded-md shadow-lg border-2 border-black border-opacity-5 font-normal text-xs md:text-base text-white shadow-md;
+}
+
+.btn-transparent {
+  @apply uppercase bg-transparent size-fit px-2 md:px-3 py-2 rounded-md shadow-lg border-2 border-black border-opacity-5 font-normal text-xs md:text-base text-blue shadow-md;
+}

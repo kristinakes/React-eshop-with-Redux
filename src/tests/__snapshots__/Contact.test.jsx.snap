@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactPage renders page correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="grid grid-cols-1 gap-3 sm:grid-cols-2 m-5 p-5 justify-center align-center"
+    >
+      <div
+        class="flex flex-col justify-evenly my-10"
+      >
+        <h1
+          class="text-xl md:text-5xl font-bold"
+        >
+          Contact us by Phone, Email, or Visit us in our Office!
+        </h1>
+        <div
+          class="h-[330px] w-[100%]"
+        >
+          <p
+            class="my-5"
+          >
+            Our address: 
+            Station Nord 23456, Greenland
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-8 justify-center items-center"
+      >
+        <div
+          class="bg-yellow flex flex-col items-center justify-evenly shadow-lg text-opacity-25 rounded p-5 md:px-10 h-[330px] w-[310px] "
+        >
+          <img
+            alt=""
+            class="h-[46px] w-[52px]"
+            src="headphones.png"
+          />
+          <h5
+            class="font-bold text-2xl capitalize leading-7 text-black-900"
+          >
+            Phone number
+          </h5>
+          <p
+            class="font-normal text-center text-xl leading-6"
+          >
+            0475635352
+          </p>
+        </div>
+        <div
+          class="bg-yellow flex flex-col items-center justify-evenly shadow-lg text-opacity-25 rounded p-5 md:px-10 h-[330px] w-[310px] "
+        >
+          <img
+            alt=""
+            class="h-[46px] w-[52px]"
+            src="email.png"
+          />
+          <h5
+            class="font-bold text-2xl capitalize leading-7 text-black-900"
+          >
+            E-mail
+          </h5>
+          <p
+            class="font-normal text-center text-xl leading-6"
+          >
+            gadget@store.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
