@@ -1,9 +1,9 @@
 # Getting Started with react-eshop-app
 ## Short description
-This app is build with local json server for development purposes./ 
-Redux store is used to manage product update and cart actions./
+This app is build with local json server for development purposes.   
+Redux store is used to manage product update and cart actions.
 
-Images and icons used in this project are stored in assets folder for development only./
+Images and icons used in this project are stored in assets folder for development only.  
 When using form to update/add products the title is locked for editing (as this is used to link proper image by title in assets folder when displaying).
 
 For CSS using Tailwind CSS.
